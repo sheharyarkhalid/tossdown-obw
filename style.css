@@ -12,6 +12,8 @@
     scroll-behavior: smooth;
   }
   body {
+        touch-action: manipulation;
+      
     width: 100%;
     margin: 0px;
   }
