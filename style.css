@@ -17,7 +17,33 @@
     width: 100%;
     margin: 0px;
   }
+:root {
+ touch-action: pan-x pan-y;
+  /* header color theme */
+   --header-bg-color:#fff;
+   --location-tab-color:#3b3b3b;
+   --location-tab-text-color:#3D3D3D;
+   --location-tab-text-color-two:#fff;
+   --location-tab-border-color:#E0E0E0;
 
+   --header-icons-color:#3B3B3B;
+   --header-cart-bg-color:#F7F7F7;
+   --header-cart-text-color:#8F8F8F;
+
+    --disable-bg-color:#D4D4D4;
+
+  /* hours bar color theme */
+  --hours-bar-bg-color:#F7F7F7;
+  --hours-bar-icon-color:#3B3B3B;
+  --hours-bar-text-color:#000000;
+
+    /* category tabs slider theme */
+    --cat-bg-color:#fff;
+    --cat-tab-text-color:#6C6C6C;
+    --cat-tab-text-active-color:#3b3b3b;
+    --cat-tab-border-color:#6c6c6c24;
+
+  }
 
 
   .loading-skeleton {
@@ -74,33 +100,7 @@
   } */
   
 
-:root {
 
-  /* header color theme */
-   --header-bg-color:#fff;
-   --location-tab-color:#3b3b3b;
-   --location-tab-text-color:#3D3D3D;
-   --location-tab-text-color-two:#fff;
-   --location-tab-border-color:#E0E0E0;
-
-   --header-icons-color:#3B3B3B;
-   --header-cart-bg-color:#F7F7F7;
-   --header-cart-text-color:#8F8F8F;
-
-    --disable-bg-color:#D4D4D4;
-
-  /* hours bar color theme */
-  --hours-bar-bg-color:#F7F7F7;
-  --hours-bar-icon-color:#3B3B3B;
-  --hours-bar-text-color:#000000;
-
-    /* category tabs slider theme */
-    --cat-bg-color:#fff;
-    --cat-tab-text-color:#6C6C6C;
-    --cat-tab-text-active-color:#3b3b3b;
-    --cat-tab-border-color:#6c6c6c24;
-
-  }
   a{
     text-decoration: none;
   }
